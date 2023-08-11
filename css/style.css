@@ -7,7 +7,7 @@ a.skip{
   z-index: 1;
   /* Requirement 1 code here -- Do not remove this comment. */
   position: relative;
-  left: -400;
+  left: -400px;
   top: -200px;
 }
 
@@ -139,7 +139,7 @@ img {
 
 /** Code for prefers reduced motion **/
 /* Make no changes below this line.
-   *************************************** 
+   ***************************************
    */
    @media screen and (prefers-reduced-motion: reduce){
     /*Turn off scroll*/
