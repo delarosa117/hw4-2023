@@ -29,7 +29,7 @@ nav a:focus {
 
   /* Requirement 4 code here -- Do not remove this comment. */
 .intro {
-  background-image: url("https://github.com/delarosa117/hw4-2023/blob/main/images/header.jpg?raw=true"), url("header.jpg"), url("/header.jpg"), url("/images/header.jpg"), url("images/header.jpg"), url("hw4-2023/images/header.jpg");
+  background-image: url("https://github.com/delarosa117/hw4-2023/blob/main/images/header.jpg?raw=true");
   background-color: #858585;
   /* Set a specific height */
   min-height: 400px;
@@ -55,6 +55,7 @@ img {
   .about-image, .clients-image, .method-image, .contact-image {
     grid-column: 1 / 4;
     max-height: 500px;
+    margin-right: 50px;
   }
 
   /* Requirement 8 code here -- Do not remove this comment. */
@@ -78,11 +79,11 @@ img {
   /* Requirement 9 code here -- Do not remove this comment. */
 .text {
   text-align: center;
-  justify-content: center;
-  align-items: center;
   max-height: 40vh;
   overflow: auto;
-  /* margin-top: 50; */
+  margin: 50px;
+
+
 }
 
 
